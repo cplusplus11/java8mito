@@ -14,7 +14,7 @@ public class App {
 	@Repeatable(value = Lenguajes.class)
 	public @interface Lenguaje{
 		String value();
-		String nombreUsuario() default "MitoCode Luis"; 
+		String nombreUsuario() default "MitoCode Luis Eclipse"; 
 	}
 	
 	//1.7
